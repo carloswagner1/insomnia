@@ -1,0 +1,32 @@
+_id: req_df91a189b680470589475753bd512ac1
+type: Request
+parentId: wrk_6fe124a06e3b4401bad61bb28fd08e09
+modified: 1694566614114
+created: 1694138920888
+url: "{{ _.baseUrl }}/user/d3039310-be75-4959-a836-ffc5286d99dc"
+name: Update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Joao Carlos Guimarães",
+    	"password": "123456",
+    	"oldPassword": "123456"	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1694138920888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

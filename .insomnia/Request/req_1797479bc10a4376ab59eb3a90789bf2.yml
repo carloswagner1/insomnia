@@ -1,0 +1,38 @@
+_id: req_1797479bc10a4376ab59eb3a90789bf2
+type: Request
+parentId: wrk_6fe124a06e3b4401bad61bb28fd08e09
+modified: 1697595106822
+created: 1693968384948
+url: "{{ _.baseUrl }}/books/"
+name: Create book
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "O poder do hábito6",
+    	"author": "Charles Duhigg",
+    	"description":"abc",
+    	"company":"Objetiva",
+    	"rate": 2,
+    	"read": true	
+    }
+parameters: []
+headers:
+  - name: email
+    value: carlos@email.com
+    id: pair_135f85a6ac1949be8d970d77db40fe9f
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_cbcb7138a64b4f0b974a14d7af53e8aa
+authentication: {}
+metaSortKey: -1693968384948
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

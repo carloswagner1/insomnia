@@ -1,0 +1,33 @@
+_id: req_dc92282551d24d508c50400e77c63ac5
+type: Request
+parentId: wrk_6fe124a06e3b4401bad61bb28fd08e09
+modified: 1696300440323
+created: 1693967709569
+url: "{{ _.baseUrl }}/user/"
+name: Get users
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_791ce528f0844319b9106066d24708bc
+    name: page
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_cd3a648dc0ae45a7a6999e31fa106518
+    name: size
+    value: "3"
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1693967709569
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

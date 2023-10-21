@@ -1,0 +1,24 @@
+_id: req_e55fd9d2713c4945bdd6ebfcc07b380a
+type: Request
+parentId: wrk_6fe124a06e3b4401bad61bb28fd08e09
+modified: 1697595228788
+created: 1694144087289
+url: "{{ _.baseUrl }}/books/652f3eb961aea665dde847d6"
+name: Delete Books
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: email
+    value: carlos@email.com
+    id: pair_017625c11e52477a94212a07176bdc05
+authentication: {}
+metaSortKey: -1694144087289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_f756523b6a324f39946b8dd08b43cc47
+type: Request
+parentId: wrk_6fe124a06e3b4401bad61bb28fd08e09
+modified: 1697595318793
+created: 1694139964029
+url: "{{ _.baseUrl }}/books/"
+name: Get books by user
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_90a76846c7174d12b3003d798694d370
+    name: size
+    value: "3"
+    description: ""
+    disabled: false
+  - id: pair_62fd7504b2bd40bc8c29b22a6fc6698b
+    name: page
+    value: "3"
+    description: ""
+    disabled: false
+headers:
+  - id: pair_d9ba7b47733f4c3caba67374e68f6dac
+    name: email
+    value: carlos@email.com
+    description: ""
+  - id: pair_540d0191e0784938aa952553a046a3a4
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1694139964029
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

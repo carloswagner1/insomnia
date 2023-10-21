@@ -1,0 +1,32 @@
+_id: req_4333d124e318467c97ccf1cf7297dce1
+type: Request
+parentId: wrk_6fe124a06e3b4401bad61bb28fd08e09
+modified: 1697595324762
+created: 1696991531548
+url: "{{ _.baseUrl }}/books/652f3eea61aea665dde847e1"
+name: New Request
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rate": 5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b6fda38ec87d4eb8a388059c1195fa33
+  - name: email
+    value: carlos@email.com
+    id: pair_341490516da746f68cfb3c7dbf52e574
+authentication: {}
+metaSortKey: -1696991531548
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
